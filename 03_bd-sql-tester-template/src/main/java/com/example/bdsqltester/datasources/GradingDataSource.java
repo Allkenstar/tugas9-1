@@ -15,6 +15,9 @@ public class GradingDataSource {
         config.setJdbcUrl("jdbc:postgresql://localhost:5432/hr");
         config.setUsername("readonly_grader");
         config.setPassword("readonly_grader");
+//        config.setJdbcUrl("jdbc:postgresql://localhost:5432/tugas9-1");
+//        config.setUsername("postgres");
+//        config.setPassword("4l1k3n5t4r");
         config.addDataSourceProperty("cachePrepStmts", "true");
         config.addDataSourceProperty("prepStmtCacheSize", "250");
         config.addDataSourceProperty("prepStmtCacheSqlLimit", "2048");

@@ -10,9 +10,9 @@ public class MainDataSource {
     private static HikariDataSource ds;
 
     static {
-        config.setJdbcUrl("jdbc:postgresql://localhost:5432/sql-tester");
+        config.setJdbcUrl("jdbc:postgresql://localhost:5432/tugas9-1");
         config.setUsername("postgres");
-        config.setPassword("postgres");
+        config.setPassword("4l1k3n5t4r");
         config.addDataSourceProperty("cachePrepStmts", "true");
         config.addDataSourceProperty("prepStmtCacheSize", "250");
         config.addDataSourceProperty("prepStmtCacheSqlLimit", "2048");
